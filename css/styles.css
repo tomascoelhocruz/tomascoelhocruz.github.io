@@ -59,3 +59,9 @@ section {
     background: white;
     color: black;
 }
+
+.contactCard {
+    /* border-radius: 5px;
+     background-color: #212121; */
+    padding: 20px;
+}

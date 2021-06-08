@@ -50,6 +50,10 @@
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
+            <li class="nav-item">
+              <a target="_blank" rel="noopener noreferrer" class="nav-link"
+                href="https://pdfhost.io/v/s0z76DT.z_CV_dec.pdf">Resume</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -255,10 +259,26 @@
   </section>
 
   <section id="contact">
-    <div style="text-align: center;">
-      <h1 style="font-size: 5rem;">Soon!</h1>
-      <p style="font-size: 2rem;">Contact form</p>
+    <h1 style="font-size: 5rem;text-align: center;">Send me a message!</h1>
+    <p style="text-align: center; font-size: 2rem;">I'll get back to you as soon as possible</p>
+    <div class="contactCard">
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email<span style="color: rgb(255, 91, 91);"> *</span></label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message<span style="color: rgb(255, 91, 91);"> *</span></label>
+          <textarea type="text" class="form-control" id="message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send</button>
+      </form>
     </div>
+
   </section>
 
 
