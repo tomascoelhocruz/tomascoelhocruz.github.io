@@ -1,19 +1,51 @@
 body, html {
     font-family: 'Roboto', sans-serif;
-    background-color: #212529;
     color: white;
     margin: 0;
+    background-color: #212121;
+    background-image: linear-gradient(147deg, #000000 0%, #303030 74%);
+    /* original 434343 */
 }
 
 section {
     display: block;
-    width: 100%; min-height: 100vh;
+    width: 100%;
+    min-height: 100vh;
     padding: 60px;
 }
 
-.myAvatar{
-    width: 150px;
-    height: 150px;
+.myAvatar {
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     object-fit: cover;
+    margin-top: 2.5%;
+    margin-bottom: 1%;
 }
+
+.highlight {
+    color: #bb86fc;
+    /* 77AB69 */
+}
+
+.highlight2 {
+    color: #bb86fc;
+    /* 8139f2 */
+}
+
+.navColor {
+    background-color: #212121;
+}
+
+.backdrop {
+    background-image: url(/images/backdrop.svg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+} 
+
+
+/* background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;*/
