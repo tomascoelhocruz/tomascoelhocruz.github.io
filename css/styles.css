@@ -46,6 +46,16 @@ section {
     background-size: cover;
 }
 
-.card{
+.card {
     background-color: #121212;
+}
+
+.btn-primary {
+    background-color: #bb86fc;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: white;
+    color: black;
 }
