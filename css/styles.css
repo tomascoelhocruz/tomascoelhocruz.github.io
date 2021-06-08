@@ -63,5 +63,50 @@ section {
 .contactCard {
     /* border-radius: 5px;
      background-color: #212121; */
-    padding: 20px;
+}
+
+#contactForm-status {
+    max-width: 500px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+#contactForm-status.success {
+    background-color: #1ddecb;
+    color: black;
+    animation: status 2s ease forwards;
+}
+
+#contactForm-status.error {
+    background-color: rgb(255, 103, 103);
+    color: white;
+    animation: status 2s ease forwards;
+}
+
+@keyframes contactForm-status {
+    0% {
+        opacity: 1;
+        pointer-events: all;
+    }
+    90% {
+        opacity: 1;
+        pointer-events: all;
+    }
+    100% {
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+
+footer{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+i{
+    color: white;
 }

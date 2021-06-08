@@ -20,6 +20,7 @@
     crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="js/scripts.js"></script>
+  <script src="https://kit.fontawesome.com/951a2c1a96.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="icon" href="images/favicon.png" type="image/png">
@@ -262,22 +263,49 @@
     <h1 style="font-size: 5rem;text-align: center;">Send me a message!</h1>
     <p style="text-align: center; font-size: 2rem;">I'll get back to you as soon as possible</p>
     <div class="contactCard">
-      <form>
-        <div class="mb-3">
+      <form class="row g-3" id="contactForm" action="https://formspree.io/f/mbjqyrbj" method="POST">
+        <div class="col-md-6">
           <label for="name" class="form-label">Name</label>
-          <input type="text" class="form-control" id="name">
+          <input type="text" class="form-control" id="name" name="name" required placeholder="ex. john">
         </div>
-        <div class="mb-3">
-          <label for="email" class="form-label">Email<span style="color: rgb(255, 91, 91);"> *</span></label>
-          <input type="email" class="form-control" id="email" required>
+        <div class="col-md-6">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" name="email" required placeholder="ex. john@mail.com">
         </div>
-        <div class="mb-3">
-          <label for="message" class="form-label">Message<span style="color: rgb(255, 91, 91);"> *</span></label>
-          <textarea type="text" class="form-control" id="message" required></textarea>
+        <div class="col-12">
+          <label for="message" class="form-label">Message</label>
+          <textarea rows="7" type="text" class="form-control" id="message" name="message" required placeholder="Write your message here"></textarea>
         </div>
-        <button type="submit" class="btn btn-primary">Send</button>
+        <div style="text-align: center;">
+          <button style="width: 50%;" type="submit" class="btn btn-primary">Send</button>
+        </div>
+        <div id="contactForm-status"></div>
       </form>
     </div>
+    <footer>
+      <p style="text-align: center; font-size: 2rem;">Find me on</p>
+
+      <div class="container">
+        <div class="row row-cols-auto justify-content-center">
+          <div class="col-md-auto">
+            <a target="_blank" rel="noopener noreferrer" title="Linkedin"
+              href="https://www.linkedin.com/in/tom%C3%A1s-coelho-cruz/">
+              <i class="fab fa-3x fa-linkedin"></i>
+            </a>
+          </div>
+          <div class="col-md-auto">
+            <a target="_blank" rel="noopener noreferrer" title="GitHub" href="https://github.com/tomascoelhocruz">
+              <i class="fab fa-3x fa-github-square"></i>
+            </a>
+          </div>
+          <div class="col-md-auto">
+            <a href="mailto:tomascoelhocruz@gmail.com" title="Email me" rel="me" target="_blank">
+              <i class="fas fa-3x fa-envelope-square"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
 
   </section>
 
