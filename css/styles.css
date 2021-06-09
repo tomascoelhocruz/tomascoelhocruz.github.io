@@ -134,7 +134,8 @@ i {
         font-size: 2em;
     }
     section {
-        padding: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 }
 
@@ -143,4 +144,8 @@ i {
     object-fit: cover;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
+}
+
+.skillImg{
+
 }
