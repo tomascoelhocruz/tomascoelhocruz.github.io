@@ -55,6 +55,11 @@ section {
     border: none;
 }
 
+.btn-primary.disabled {
+    background-color: #bb86fc;
+    border: none;
+}
+
 .btn-primary:hover {
     background: white;
     color: black;
@@ -133,9 +138,9 @@ i {
     }
 }
 
-.projectCardBanner{
+.projectCardBanner {
     height: 250px;
-    object-fit:cover;
+    object-fit: cover;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
 }
