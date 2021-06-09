@@ -12,7 +12,7 @@ window.addEventListener("DOMContentLoaded", function () {
   var form = document.getElementById("contactForm");
   var status = document.getElementById("contactForm-status");
 
-  // Success and Error functions for after the form is submitted
+  // Success and Error functions
 
   function success() {
     form.reset();
@@ -25,7 +25,7 @@ window.addEventListener("DOMContentLoaded", function () {
     status.innerHTML = "Oops! There was a problem sending the message.";
   }
 
-  // handle the form submission event
+  // Handle submission event
 
   form.addEventListener("submit", function (ev) {
     ev.preventDefault();
@@ -34,7 +34,7 @@ window.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-// helper function for sending an AJAX request
+// Function for sending an AJAX request
 
 function ajax(method, url, data, success, error) {
   var xhr = new XMLHttpRequest();

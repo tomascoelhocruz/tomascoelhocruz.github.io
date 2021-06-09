@@ -128,4 +128,14 @@ i {
     i {
         font-size: 2em;
     }
-  }
+    section {
+        padding: 30px;
+    }
+}
+
+.projectCardBanner{
+    height: 250px;
+    object-fit:cover;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}

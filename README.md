@@ -7,3 +7,5 @@
 # 251f2d purple light
 # https://getavataaars.com/
 # mail service from formspree.io
+# svg logos https://iconape.com/
+# edited at https://editor.method.ac/
