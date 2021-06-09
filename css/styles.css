@@ -109,6 +109,7 @@ footer {
 
 i {
     color: white;
+    font-size: 3em;
 }
 
 .head1 {
@@ -122,3 +123,9 @@ i {
 .pText {
     font-size: clamp(1em, 2vw, 2em);
 }
+
+@media screen and (max-width: 600px) {
+    i {
+        font-size: 2em;
+    }
+  }
