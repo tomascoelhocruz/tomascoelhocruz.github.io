@@ -140,8 +140,16 @@ i {
 }
 
 .projectCardBanner {
-    height: 250px;
-    object-fit: cover;
+    max-height: 250px;
+    height: auto;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
+    background: rgb(48, 48, 48);
+}
+
+.cardBannerImg {
+    max-width: 100%;
+    height: auto;
+    max-height: 250px;
+    background-position: center center;
 }

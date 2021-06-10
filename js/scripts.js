@@ -1,9 +1,10 @@
+// section navbar active change
 $(document).ready(function () {
   $('a').click(function () {
     $('a').removeClass("active");
     $(this).addClass("active");
   });
-}); // section navbar active change
+});
 
 // form handled with formspree.io API
 window.addEventListener("DOMContentLoaded", function () {
@@ -50,3 +51,9 @@ function ajax(method, url, data, success, error) {
   };
   xhr.send(data);
 }
+
+$(document).on('click','.navbar-collapse.show',function(e) {
+  if( $(e.target).is('a') ) {
+      $(this).collapse('hide');
+  }
+});
