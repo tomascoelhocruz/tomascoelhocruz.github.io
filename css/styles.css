@@ -174,8 +174,4 @@ i {
     .pText {
         font-size: clamp(2vh, 3rem, 5vw);
     }
-    section {
-        width: auto;
-        min-height: auto;
-    }
 }
