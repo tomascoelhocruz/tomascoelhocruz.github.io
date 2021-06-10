@@ -153,3 +153,13 @@ i {
     max-height: 250px;
     background-position: center center;
 }
+
+.skillImg {
+    max-width: 150px;
+    max-height: 150px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: block;
+}
