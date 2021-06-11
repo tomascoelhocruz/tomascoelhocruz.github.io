@@ -175,3 +175,25 @@ i {
         font-size: clamp(2vh, 3rem, 5vw);
     }
 }
+
+
+@media only screen and (max-width: 920px) {
+    .card-title{
+        font-size: 75%;
+    }
+
+}
+
+@media only screen and (max-width: 692px) {
+    .card-title{
+        font-size: 50%;
+    }
+
+}
+
+@media only screen and (max-width: 575px) {
+    .card-title{
+        font-size: 100%;
+    }
+
+}
