@@ -159,6 +159,8 @@ i {
     display: block;
 }
 
+/* must change cause bstrap 5 not responsive supp */
+
 @media screen and (min-width: 1920px) {
     .head1 {
         font-size: clamp(5vh, 8rem, 15vw);
